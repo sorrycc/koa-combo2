@@ -16,8 +16,17 @@ $ npm install koa-combo2 -g
 ## Usage
 
 ```bash
-var koa-combo2 = require('koa-combo2');
+var combo = require('koa-combo2');
+var koa = require('koa');
+
+var app = koa();
+app.use(combo(options));
+app.listen(3000);
 ```
+
+## Options
+
+See [connect-combo](https://github.com/popomore/connect-combo).
 
 ## LISENCE
 
