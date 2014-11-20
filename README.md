@@ -10,7 +10,7 @@ Koa middleware for assets combo.
 ## Install
 
 ```bash
-$ npm install koa-combo2 -g
+$ npm install koa-combo2
 ```
 
 ## Usage
