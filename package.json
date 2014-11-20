@@ -1,0 +1,26 @@
+{
+  "name": "koa-combo2",
+  "version": "0.1.0",
+  "description": "Koa middleware for assets combo.",
+  "main": "index",
+  "dependencies": {
+    "connect-combo": "0.2.7"
+  },
+  "devDependencies": {
+    "coveralls": "2",
+    "istanbul": "0",
+    "koa": "~0.13.0",
+    "mocha": "1",
+    "should": "3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorrycc/koa-combo2"
+  },
+  "homepage": "https://github.com/sorrycc/koa-combo2",
+  "author": "chencheng <sorrycc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  }
+}
