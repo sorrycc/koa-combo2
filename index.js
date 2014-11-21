@@ -10,6 +10,6 @@ module.exports = function(options) {
 
 function combo(req, res, options){
   return function(callback){
-    require('connect-combo').apply(this, options)(req, res, callback);
+    require('./combo').apply(this, options)(req, res, callback);
   };
 }
